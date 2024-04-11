@@ -1,0 +1,11 @@
+.image-container {
+    overflow: hidden;
+  }
+  
+  .image-container img {
+    transition: transform 0.3s ease;
+  }
+  
+  .image-container.magnified img {
+    transform: scale(8); /* Change this value to control the magnification level */
+  }
